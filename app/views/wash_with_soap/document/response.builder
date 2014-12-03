@@ -1,3 +1,4 @@
+xml = Builder::XmlMarkup.new
 xml.instruct!
 xml.tag! "soap:Envelope", "xmlns:soap" => 'http://schemas.xmlsoap.org/soap/envelope/',
                           "xmlns:xsd" => 'http://www.w3.org/2001/XMLSchema',
